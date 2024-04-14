@@ -18,5 +18,60 @@ html {
 /* ----- Global Styles ------ */
 
 body{
-    
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
+
+header.primary{
+background-color:lightpink;
+color:white;
+text-align:center; 
+text-shadow:2px 2px #000000;
+padding:35px;
+}
+
+header.primary h1{
+    font-size: 2.2rem;
+    margin:15px 0 0;
+
+}
+
+header.primary h1 a{
+    color:bisque;
+    text-decoration:none;
+}
+
+header.primary h2 {
+    font-size: 1.1rem;
+}
+
+header.primary nav{
+    max-width:800px;
+    background:papayawhip;
+    margin: 16px auto;
+}
+
+header.primary ul li{
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header.primary ul li{
+    list-style-type:none
+}
+
+header.primary nav a{
+    color:rgb(207, 243, 207);
+    text-decoration:none;
+    background-color:rgba(6, 236, 64, 0.164);    
+    padding:6px 11px; 
+    border-radius: 17px;
+    border: 2px solid #98e8fc;
+    transition:6.2s;
+}
+
+header.primary nav a:hover{
+    background-color:rgba(6, 236, 64, 0.25)
+    }
+
