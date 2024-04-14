@@ -45,16 +45,15 @@ header.primary h2 {
 }
 
 header.primary nav{
-    max-width:800px;
-    background:papayawhip;
-    margin: 16px auto;
+    max-width:950px;
+    margin: 25px auto;
 }
 
-header.primary ul li{
+header.primary ul {
     padding:0;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 header.primary ul li{
