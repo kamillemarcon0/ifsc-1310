@@ -64,14 +64,14 @@ header.primary ul li{
 header.primary nav a{
     color:rgb(207, 243, 207);
     text-decoration:none;
-    background-color:rgba(6, 236, 64, 0.164);    
+    background-color:rgba(19, 167, 56, 0.9);    
     padding:6px 11px; 
     border-radius: 17px;
     border: 2px solid #98e8fc;
-    transition:6.2s;
+    transition:2s;
 }
 
 header.primary nav a:hover{
-    background-color:rgba(6, 236, 64, 0.25)
+    background-color:rgb(121, 102, 216,0.7)
     }
 
