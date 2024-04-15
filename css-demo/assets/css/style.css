@@ -89,16 +89,23 @@ header.primary nav a:hover{
     background-color:rgb(121, 102, 216,0.7)
     }
 
+#content {
+    color:rgb(247, 247, 247);
+    background-color:rgb(79, 224, 156);
+}
 #content h2{
-    color:mediumspringgreen;
+    color:rgb(223, 235, 169);
     font-family:"Lucida Console", "Courier New", monospace;
     font-size:30px;
-    border-bottom: 2px dotted #e78894;
+    text-align:center;
+    border-bottom: 2px dotted rgb(43, 156, 248);
 }
 
 #content h3{
-    border-right:8px solid #88d1e7;
+    color:fuchsia;
+    border:8px solid #88d1e7;
     padding:6.8px;
+    text-align:center;
 
 }
 
@@ -110,11 +117,12 @@ header.primary nav a:hover{
 }
 
 #blog .post{
-    box-shadow: 0 12px 18px
-rgba(36, 49, 223, 0.5);
+box-shadow: 0 12px 18px
+rgba(211, 16, 250, 0.726);
 padding:12px;
 border-radius:21px;
 font-size:.9rem;
+transition:.2s;
 }
 
 #blog figure{
@@ -124,6 +132,27 @@ font-size:.9rem;
 
 #blog figcaption{
     text-transform:uppercase;
+    font-size:.9rem;
+    text-align:center;
+    color:mediumpurple;
+}
+
+#blog header{
+    padding-top:10px;
+    font-size:1rem;
+    color:rgb(66, 109, 63);
+}
+
+blog header h2{
+    margin:0;
+}
+
+#blog a{
+    color:rgb(155, 73, 202);
+}
+
+#blog .post:hover{
+    box-shadow: 0 8px 16px rgba(25, 218, 128, 0.6);
 }
 
 
