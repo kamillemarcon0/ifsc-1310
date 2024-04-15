@@ -14,6 +14,21 @@ html {
     box-sizing: inherit;
 }
 
+/* ----- Responsive Images ------ */
+
+img{
+    max-width: 100%;
+}
+
+
+/* ----- Utility Classes ------ */
+
+.container{
+    max-width: 936px;
+    width: 90vw;
+    margin:32px auto;
+}
+
 
 /* ----- Global Styles ------ */
 
@@ -74,3 +89,153 @@ header.primary nav a:hover{
     background-color:rgb(121, 102, 216,0.7)
     }
 
+#content h2{
+    color:mediumspringgreen;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size:30px;
+    border-bottom: 2px dotted #e78894;
+}
+
+#content h3{
+    border-right:8px solid #88d1e7;
+    padding:6.8px;
+
+}
+
+#blog{
+  display:flex; 
+  flex-direction:row;
+  justify-content:space-around;
+  gap:2rem;
+}
+
+#blog .post{
+    box-shadow: 0 12px 18px
+rgba(36, 49, 223, 0.5);
+padding:12px;
+border-radius:21px;
+font-size:.9rem;
+}
+
+#blog figure{
+    margin:0;
+
+}
+
+#blog figcaption{
+    text-transform:uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:600px) {
+    header.primary ul {
+       flex-direction: column;
+       gap:30px;
+       max-width: 265px;
+       margin: auto;
+    }
+
+header.primary nav a {
+    display:block;
+}
+
+
+
+
+  
+    
+}
