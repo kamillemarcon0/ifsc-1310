@@ -3,7 +3,7 @@ background-color:rgb(240, 199, 230);
 }
 
 h1{
-color:rgb(180, 81, 238);
+color:rgb(252, 1, 231);
 font-size: 80px;
 font-family: "Dancing Script", cursive;
 
@@ -22,13 +22,20 @@ ul li{
 }
 
 ul li{
-    color:rgb(207, 243, 207);
-    text-decoration:none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:overline rgb(252, 1, 231);
     background-color:rgba(156, 245, 138, 0.945);    
     padding:6px 11px; 
-    border-radius: 17px;
+    border-radius: 20px;
     border: 3.2px solid #83f0f0;
     font-size:20px;
-    
+   transition:2s;
+   box-shadow: 0 8px 9px rgba(56, 43, 231, 0.945);
 }
+
+header.primary nav a:hover{
+    background-color:rgb(121, 102, 216,0.7)
+    }
+    
+
 
